@@ -11,4 +11,5 @@
 
 import { transcribeDNA } from './exercise02.js';
 console.log(transcribeDNA('ATCG'));
- console.log(transcribeDNA('GATTACA'));
+console.log(transcribeDNA('GATTACA'));
+console.log(transcribeDNA('ATCX'));
