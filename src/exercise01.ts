@@ -4,8 +4,8 @@ export function formatName(
   middleName?: string | null,
 ): string {
   let output = lastName + ', ' + firstName;
-  if(middleName) {
-    output += " " + middleName[0] + "."
+  if (middleName) {
+    output += ' ' + middleName[0] + '.';
   }
   return output;
 }

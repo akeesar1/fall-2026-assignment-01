@@ -9,7 +9,7 @@
 //import { formatName } from './exercise01.js';
 //console.log(formatName('John', 'Doe', 'Quincy'));
 
-import { transcribeDNA } from './exercise02.js';
-console.log(transcribeDNA('ATCG'));
-console.log(transcribeDNA('GATTACA'));
-console.log(transcribeDNA('ATCX'));
+//import { transcribeDNA } from './exercise02.js';
+//console.log(transcribeDNA('ATCG'));
+//console.log(transcribeDNA('GATTACA'));
+//console.log(transcribeDNA('ATCX'));
