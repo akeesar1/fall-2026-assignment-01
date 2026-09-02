@@ -1,6 +1,9 @@
 export function getInventoryValue(
   inventory: Array<[string, number, number]>,
 ): number {
-  
-  return 0;
+  return inventory
+    .filter(([, quantity]) => quantity > 5)
+    .map(([, quantity, pricePerUnit]) => quantity * pricePerUnit)
+    .reduce((total, value) => total + value, 0);
+
 }
